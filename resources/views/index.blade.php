@@ -4,11 +4,11 @@
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
       <meta name="description" content="Interactive entity-relationship diagram or data model diagram implemented by GoJS in JavaScript for HTML."/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.6/tailwind.min.css"/>
+      <link rel="stylesheet" href="{{ basset('https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.6/tailwind.min.css') }}"/>
 
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/2.1.46/go.js"></script>
-      <script src="https://unpkg.com/gojs@2.1.47/extensions/Figures.js"></script>
+      <script src="{{ basset('https://code.jquery.com/jquery-3.6.0.min.js') }}"></script>
+      <script src="{{ basset('https://cdnjs.cloudflare.com/ajax/libs/gojs/2.1.46/go.js') }}"></script>
+      <script src="{{ basset('https://unpkg.com/gojs@2.1.47/extensions/Figures.js') }}"></script>
       <title>ERD</title>
    </head>
    <body class="bg-gray-100 tracking-wide bg-gray-200">
